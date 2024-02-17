@@ -32,7 +32,7 @@ void setup() {
   //初始化TC9459
   TC9459L.begin();  
   
-  //设置Muses72323状态
+  //设置TC9459是否启用响度状态
   TC9459L.turnOnLoudness(false); //不使用响度
 
   //启动时设置为默认音量
